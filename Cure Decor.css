@@ -132,3 +132,9 @@ background-color: grey;
    font-size: 40px;
 }
 
+@media(max-width: 100px){
+    *{
+        font-size: 5px;
+    }
+
+}  
