@@ -132,7 +132,25 @@ background-color: grey;
    font-size: 40px;
 }
 
-
+/* Phone styles */
 @media screen and (min-width: 350px){
+body{
+    background-color: peach;
+}
 
+
+}
+/* Tablet stykes */
+@media screen and (min-width: 700px){
+    body{
+        background-color: white;
+    }
+    
+}
+/* desktop styles */
+@media screen and (min-width: 1100px){
+    body{
+        background-color: white;
+    }
+    
 }
