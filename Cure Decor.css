@@ -140,7 +140,11 @@ background-color: grey;
 .navi ul li{
     float: none;
     font-size: 16px;
+    font-color: black;
     min-width: 350px;
+}
+.navi ul li a{
+    font-color: black;
 }
 }
 /* Tablet stykes */
