@@ -134,15 +134,14 @@ background-color: grey;
 
 /* Phone styles */
 @media screen and (min-width: 350px){
-body{
-    background-color: white;
+.navi{
+    width: 25%;
 }
 .navi ul li{
+    float: none;
     font-size: 16px;
     min-width: 350px;
 }
-
-
 }
 /* Tablet stykes */
 @media screen and (min-width: 700px){
