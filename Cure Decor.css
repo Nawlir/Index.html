@@ -135,7 +135,11 @@ background-color: grey;
 /* Phone styles */
 @media screen and (min-width: 350px){
 body{
-    background-color: peach;
+    background-color: white;
+}
+.navi ul li{
+    font-size: 16px;
+    min-width: 350px;
 }
 
 
