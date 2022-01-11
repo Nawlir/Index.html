@@ -133,31 +133,3 @@ background-color: grey;
 }
 
 /* Phone styles */
-@media screen and (min-width: 350px){
-.navi{
-    width: 25%;
-}
-.navi ul li{
-    float: none;
-    font-size: 16px;
-    font-color: black;
-    min-width: 350px;
-}
-.navi ul li a{
-    font-color: black;
-}
-}
-/* Tablet stykes */
-@media screen and (min-width: 700px){
-    body{
-        background-color: white;
-    }
-    
-}
-/* desktop styles */
-@media screen and (min-width: 1100px){
-    body{
-        background-color: white;
-    }
-    
-}
