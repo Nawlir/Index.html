@@ -54,8 +54,10 @@
         padding: 22px 14px;
         text-decoration: none;
     }
+
     .navi ul li a:hover{
 background-color: grey;
+
     }
     .navi ul li ul{
         display: none;
@@ -177,7 +179,7 @@ display: none;
 /* Phone styles */
 @media all and (max-width: 991px){
     .navi{
-        
+        text-align: left;
         position: absolute;
         width: 100%;
         height: 100%;
@@ -189,7 +191,7 @@ display: none;
 
 
     .navi p a{
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .navi ul li{
@@ -198,7 +200,7 @@ display: none;
     }
 
     .navi ul li a{
-        font-size: 12px;
+        font-size: 17px;
     }
 
     .no-drop{
@@ -209,8 +211,18 @@ display: none;
     .menu{
         display: block;
     }
+.navi .bop li a{
+    margin-left: 300px;
+    top: 0;
+    position: absolute;
+}
+.navi ul li a:hover{
+    background-color: grey;
+    width: 100%;
 
-
+.pob{
+    width: 100%
+}
 
 }
 
