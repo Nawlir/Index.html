@@ -132,14 +132,59 @@ background-color: grey;
    font-size: 40px;
 }
 
+.menu-toggle{
+    color: white;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor:pointer;
+    display: none;
+}
+
+#check{
+float: right;
+size: 10%;
+height: 10%;
+width: 10%;
+}
+
+.menu{
+display: none;
+}
+
+.menu-line{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+@media all and(max-width: 480px){
+    .navi ul li{
+        float:none;
+        padding: 20% 0px 0px 0px;
+    }
+
+    .navi ul li a{
+        display: block;
+        font-size: 12px;
+    }
+    
+    .menu{
+        display: block;
+    }
+
+}
 /* Phone styles */
-@media (max-width: 800px){
+@media all and (max-width: 991px){
     .navi{
         
-        position: fixed;
+        position: absolute;
         width: 100%;
-        height: 40%;
+        height: 100%;
         background-color: rgb(0, 0, 0);
+    }
+    .menu-toggle{
+        display: block;
     }
 
 
@@ -147,12 +192,31 @@ background-color: grey;
         font-size: 16px;
     }
 
+    .navi ul li{
+        float:none;
+        padding: 20% 0px 0px 0px;
+    }
+
     .navi ul li a{
         font-size: 12px;
     }
 
-    #check :checked ~ .navi{
-top: 0;
+    .no-drop{
+        float: left;
+        padding-top: 10%;
+    }
+
+    .menu{
+        display: block;
+    }
+
+
+
+}
+
+@media  (min-width: 350px) {
+    .navi ul li{
+        color: #000;
     }
 }
     
