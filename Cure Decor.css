@@ -108,7 +108,7 @@ background-color: grey;
     }
     
      
-    .fo{
+    .for{
         width: 900px;
         border: 0px solid #ccc;
         border-radius: 5px;
@@ -191,7 +191,7 @@ display: none;
 
 
     .navi p a{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .navi ul li{
@@ -200,7 +200,7 @@ display: none;
     }
 
     .navi ul li a{
-        font-size: 17px;
+        font-size: 25px;
     }
 
     .no-drop{
